@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <h1>Formulários</h1>
+    <!--
+        form -> (formulário)
+        input -> entrada de dados
+        submit -> enviar
+        button -> botão
+
+        method="post" = Esconde as informações 
+        method="get" = Mostra as informações 
+    -->
+
+    <form action="processa.html" method="post">
+        
+        E-mail: <br>
+        <input type="text" name="E-mail" placeholder="Digite seu E-mail"> <br>
+
+        Senha: <br>
+        <input type="password" name="Senha" placeholder="Digite sua Senha"> <br>
+
+        Comentário: <br>
+        <textarea name="comentário" placeholder="Digite um comentário"></textarea>
+
+        <input type="submit" value="Entrar">
+
+    </form>
+
+</body>
+
+</html>
